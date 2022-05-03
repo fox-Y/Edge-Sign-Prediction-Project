@@ -16,7 +16,3 @@ VOT: the source's vote on the target (-1 = oppose; 0 = neutral; 1 = support)
 YEA: the year in which the election was started  
 DAT: the date and time of this vote  
 TXT: the comment written by the source, in wiki markup  
-
-# Feature Engineering
-For feature engineering part, we defining a collection of features for our machine learning.  
-The features are divided into two classes. The first class is based on the signed degrees of the nodes. Like positive degree, negative degree and the common neighbors. The positive degree of a node is the number of positive edges connecting it. And the negative degree of a node is the number of negative edges connecting it. If the positive degree of a node is larger, it means that the node is more willing to make friends with other nodes or the node is more popular with other nodes. And common neighbors refers to the common nodes between two nodes. We think that if there are many common friends between two nodes, then the probability of them becoming friends is relatively high. The second class is based on the number of triads of each type. 
