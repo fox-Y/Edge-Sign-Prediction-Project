@@ -1,3 +1,6 @@
+# Team Member
+Tengyang Zhang, Rusu Wu, Yi Yao
+
 # Edge-Sign-Prediction-Project
 In our project, we would first deal with the graph data and obtain an undirected graph. Following this, we would do testing and decide on the model we would use. Then, we can use machine learning to predict the formation of links between the unconnected node pairs of the graph. After conducting the link formation, we would further predict the characteristic of these links in terms of positive or negative.
 
